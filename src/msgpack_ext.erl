@@ -19,7 +19,7 @@
 
 %%
 %% @doc identity constraint
-%% {ok, {Type, Data} = msgpack_ext_module:pack_ext(Tuple, [{ext, msgpack_ext_module}]),
+%% {ok, {Type, Data}} = msgpack_ext_module:pack_ext(Tuple, [{ext, msgpack_ext_module}]),
 %% {ok, Tuple} = msgpack_ext_module:unpack_ext(Type, Data)
 %% 
 -callback pack_ext(any(), msgpack:options()) ->
